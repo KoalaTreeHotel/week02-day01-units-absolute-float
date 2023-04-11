@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- absolute positioned boxes with different values and units -->
+    <section class="box-container">
+        <h2>Section 1: Absolute positioned boxes within a relative positioned container;
+            different measurement units used
+        </h2>
+        <div class="box-red">
+            Red box
+        </div>
+        <div class="box-yellow">
+            Yellow box
+        </div>
+        <div class="box-blue">
+            Blue box
+        </div>
+    </section>
+
+    <!-- floating image (float sucks, best not to use it!) -->
+    <section class="section2">
+        <h2>Section 2: Floating image that would overflow without clearfix hack</h2>
+        <p>
+            Elements <strong>after</strong> a floating element will <strong>still</strong> flow around it.
+            Need to apply the clearfix hack to prevent this unwanted behaviour from happening.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae veritatis maxime culpa?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae veritatis maxime culpa?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae veritatis maxime culpa?
+            <img class="overflowing-img-cat"
+                src="https://3.bp.blogspot.com/-ajn-9ZveGms/Uim4czBNTgI/AAAAAAAAAWo/cbin6JlIv-w/s1600/Black-And-White-Small-Cat-HD-Wallpaper.jpg"
+                alt="overflowing cat image">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae veritatis maxime culpa?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae veritatis maxime culpa?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae veritatis maxime culpa?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae veritatis maxime culpa?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae veritatis maxime culpa?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae veritatis maxime culpa?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae veritatis maxime culpa?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae veritatis maxime culpa?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae veritatis maxime culpa?
+        </p>
+    </section>
+    <section class="section3 clearfix">
+        <h2>Section 3: Clearfix hack has been applied</h2>
+        <p>No overflow of floating image element now.</p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae veritatis maxime culpa?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae veritatis maxime culpa?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae veritatis maxime culpa?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae veritatis maxime culpa?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae veritatis maxime culpa?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae veritatis maxime culpa?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae veritatis maxime culpa?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae veritatis maxime culpa?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae veritatis maxime culpa?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae veritatis maxime culpa?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae veritatis maxime culpa?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae veritatis maxime culpa?
+        </p>
+    </section>
+
+</body>
+
+</html>

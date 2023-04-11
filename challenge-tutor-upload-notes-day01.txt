@@ -1,0 +1,9 @@
+-- Day 1 challenge 
+Looking at various units and also the float element.
+A quick challenge, don't want to dwell on the "old-fashioned" float element.
+
+-- View webpage:
+https://koalatreehotel.github.io/week02-day01-units-and-floats/
+
+-- View all repos:
+https://github.com/KoalaTreeHotel?tab=repositories
