@@ -5,7 +5,6 @@
 .box-container {
     position: relative;
     left: 10px;
-    top: 10px;
 }
 
 .box-red {
@@ -14,8 +13,8 @@
     background-color: red;
     color: white;
     position: absolute;
-    left: 40px;
-    top: 40px;
+    left: 120px;
+    top: 120px;
     z-index: 1;
     font-size: 1vmax;
 }
@@ -27,8 +26,8 @@
     color: green;
     z-index: 2;
     position: absolute;
-    left: 80px;
-    top: 80px;
+    left: 160px;
+    top: 160px;
     padding-top: 40px;
     text-align: center;
     font-size: 1.25rem;
@@ -41,8 +40,8 @@
     background-color: blue;
     color:rgb(223, 133, 217);
     position: absolute;
-    left: 120px;
-    top: 120px;
+    left: 200px;
+    top: 200px;
     padding-top: 70px;
     z-index: -1;
     text-align: right;
@@ -50,7 +49,7 @@
 }
 
 .section2 {
-    padding-top: 200px;
+    padding-top: 250px;
 }
 
 .overflowing-img-cat {

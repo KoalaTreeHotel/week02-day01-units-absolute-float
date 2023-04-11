@@ -1,5 +1,5 @@
 -- Day 1 challenge 
-Looking at various units and also the float element.
+Looking at various units, relative and absolute positioning, and also the float element.
 A quick challenge, don't want to dwell on the "old-fashioned" float element.
 
 -- View webpage:
