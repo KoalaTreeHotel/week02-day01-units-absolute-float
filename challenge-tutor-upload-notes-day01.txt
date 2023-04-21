@@ -1,9 +1,3 @@
--- Day 1 challenge 
 Looking at various units, relative and absolute positioning, and also the float element.
-A quick challenge, don't want to dwell on the "old-fashioned" float element.
 
--- View webpage:
-https://koalatreehotel.github.io/week02-day01-units-absolute-float/
-
--- View all repos:
-https://github.com/KoalaTreeHotel?tab=repositories
+Challenge done quickly as we don't want to dwell on the "old-fashioned" float element.
