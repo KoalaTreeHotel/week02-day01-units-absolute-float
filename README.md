@@ -1,0 +1,8 @@
+# week02-day01-units-absolute-float
+Week 2: Day 1 - Challenge:
+
+Experiment with the CSS properties that we have looked at this morning in order to get a better understanding of how they impact our elements.
+
+Research some alternative units of measure that we can use in CSS: 
+
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units
